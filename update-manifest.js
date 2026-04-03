@@ -5,10 +5,16 @@ const crypto = require('crypto');
 const GITHUB_USER = 'Lyrinalin';
 const GITHUB_REPO = 'sborka-mods';
 const GITHUB_BRANCH = 'main';
-const BASE_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${GITHUB_BRANCH}/mods`;
 
+// Клиентские моды (отображаются в лаунчере, можно вкл/выкл)
 const MODS_DIR = path.join(__dirname, 'mods');
-const OUTPUT_FILE = path.join(__dirname, 'manifest.json');
+const MODS_BASE_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${GITHUB_BRANCH}/mods`;
+const MODS_MANIFEST = path.join(__dirname, 'manifest.json');
+
+// Серверные моды (скачиваются автоматически, НЕ отображаются в лаунчере)
+const SERVER_MODS_DIR = path.join(__dirname, 'server-mods');
+const SERVER_MODS_BASE_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${GITHUB_BRANCH}/server-mods`;
+const SERVER_MODS_MANIFEST = path.join(__dirname, 'server-manifest.json');
 
 function hashFile(filePath) {
     return new Promise((resolve, reject) => {
@@ -20,20 +26,15 @@ function hashFile(filePath) {
     });
 }
 
-async function main() {
-    console.log('🔍 Сканирование папки mods/...\n');
+async function buildManifest(dir, baseUrl, outputPath, label) {
+    console.log(`\n🔍 Сканирование ${label}...`);
 
-    if (!fs.existsSync(MODS_DIR)) {
-        console.error('❌ Папка mods/ не найдена!');
-        process.exit(1);
+    if (!fs.existsSync(dir)) {
+        fs.mkdirSync(dir, { recursive: true });
+        console.log(`  📁 Папка создана: ${dir}`);
     }
 
-    const files = fs.readdirSync(MODS_DIR).filter(f => f.endsWith('.jar'));
-
-    if (files.length === 0) {
-        console.error('❌ В папке mods/ нет .jar файлов!');
-        process.exit(1);
-    }
+    const files = fs.readdirSync(dir).filter(f => f.endsWith('.jar') || f.endsWith('.zip'));
 
     const manifest = {
         version: new Date().toISOString(),
@@ -43,15 +44,19 @@ async function main() {
         files: {}
     };
 
+    if (files.length === 0) {
+        console.log(`  ⚠ Нет файлов в ${label}`);
+    }
+
     for (const file of files) {
-        const filePath = path.join(MODS_DIR, file);
+        const filePath = path.join(dir, file);
         const stats = fs.statSync(filePath);
         const hash = await hashFile(filePath);
 
         manifest.files[file] = {
             hash: hash,
             size: stats.size,
-            url: `${BASE_URL}/${encodeURIComponent(file)}`
+            url: `${baseUrl}/${encodeURIComponent(file)}`
         };
 
         manifest.totalFiles++;
@@ -61,11 +66,26 @@ async function main() {
         console.log(`  ✅ ${file} (${sizeMB} МБ)`);
     }
 
-    fs.writeFileSync(OUTPUT_FILE, JSON.stringify(manifest, null, 2), 'utf-8');
+    fs.writeFileSync(outputPath, JSON.stringify(manifest, null, 2), 'utf-8');
 
-    console.log(`\n📦 Файлов: ${manifest.totalFiles}`);
-    console.log(`📏 Общий размер: ${(manifest.totalSize / 1024 / 1024).toFixed(2)} МБ`);
-    console.log(`💾 Манифест сохранён: ${OUTPUT_FILE}`);
+    console.log(`  📦 Файлов: ${manifest.totalFiles}`);
+    console.log(`  📏 Размер: ${(manifest.totalSize / 1024 / 1024).toFixed(2)} МБ`);
+    console.log(`  💾 Манифест: ${path.basename(outputPath)}`);
+
+    return manifest;
+}
+
+async function main() {
+    console.log('═══════════════════════════════════════');
+    console.log(' SBORKA — Обновление манифестов');
+    console.log('═══════════════════════════════════════');
+
+    // 1. Клиентские моды (отображаются, можно вкл/выкл)
+    await buildManifest(MODS_DIR, MODS_BASE_URL, MODS_MANIFEST, 'mods/ (клиентские)');
+
+    // 2. Серверные моды (скрытые, обязательные)
+    await buildManifest(SERVER_MODS_DIR, SERVER_MODS_BASE_URL, SERVER_MODS_MANIFEST, 'server-mods/ (серверные)');
+
     console.log(`\n🚀 Теперь сделай:`);
     console.log(`   git add .`);
     console.log(`   git commit -m "Обновление модов"`);

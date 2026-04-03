@@ -1,18 +1,7 @@
 {
-  "version": "2026-04-02T21:26:35.531Z",
-  "generatedAt": "2026-04-02T21:26:35.532Z",
-  "totalFiles": 2,
-  "totalSize": 12229886,
-  "files": {
-    "appleskin-forge-mc1.20.1-2.5.1.jar": {
-      "hash": "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426",
-      "size": 47428,
-      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/appleskin-forge-mc1.20.1-2.5.1.jar"
-    },
-    "plasmovoice-forge-1.20.1-2.1.8 (1).jar": {
-      "hash": "ec09fd81b701087ccc97cabd82687e119beec5af476cf7aab9fec8b429060d3c",
-      "size": 12182458,
-      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/plasmovoice-forge-1.20.1-2.1.8%20(1).jar"
-    }
-  }
+  "version": "2026-04-03T12:28:00.000Z",
+  "generatedAt": "2026-04-03T12:28:00.000Z",
+  "totalFiles": 0,
+  "totalSize": 0,
+  "files": {}
 }
