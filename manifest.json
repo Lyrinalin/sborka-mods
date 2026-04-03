@@ -1,12 +1,12 @@
 {
-  "version": "2026-04-03T21:04:53.507Z",
-  "generatedAt": "2026-04-03T21:04:53.508Z",
+  "version": "2026-04-03T21:21:51.711Z",
+  "generatedAt": "2026-04-03T21:21:51.712Z",
   "totalFiles": 1,
-  "totalSize": 12700852,
+  "totalSize": 15119827,
   "files": {
     "stickerchat-1.0.0.jar": {
-      "hash": "e0dddf96057c158910b99e6c591563efe82a4a3ca59cf0864194d6735ccbd223",
-      "size": 12700852,
+      "hash": "2aaaa4ed9e520f96fa7286d77a910254d0554c3c8c4b5873c452eb984cf7d135",
+      "size": 15119827,
       "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/stickerchat-1.0.0.jar"
     }
   }
