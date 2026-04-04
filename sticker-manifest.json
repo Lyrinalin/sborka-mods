@@ -1,0 +1,53 @@
+{
+  "version": "2026-04-04T14:17:15.567Z",
+  "generatedAt": "2026-04-04T14:17:15.567Z",
+  "totalFiles": 9,
+  "totalSize": 4367971,
+  "files": {
+    "packs.json": {
+      "hash": "5b28617880cf8c4b915932fffdcd2de09f214901d0c49525ae6368a4e2ccf2a9",
+      "size": 125,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/sticker-packs/packs.json"
+    },
+    "loh/1.png": {
+      "hash": "760520035ac4b81f72593ba2105033ee38ccc234757789a5bd34f4d6c0f5d86f",
+      "size": 1303475,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/sticker-packs/loh/1.png"
+    },
+    "loh/2.png": {
+      "hash": "be4ce494a4e37c10d605f12ce70506f671ada9a7d7a1d92c3d7eeeb5c7e950cf",
+      "size": 392080,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/sticker-packs/loh/2.png"
+    },
+    "loh/3.png": {
+      "hash": "c4bd00368a5d57b98c178ea640bbdbe43453db503c89cdf0f7e2dc5b98379660",
+      "size": 358767,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/sticker-packs/loh/3.png"
+    },
+    "loh/4.png": {
+      "hash": "f478064a49183badc35b2354cf51f8182bda491c6a30dd38ca172de46248aeb1",
+      "size": 363674,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/sticker-packs/loh/4.png"
+    },
+    "loh/5.png": {
+      "hash": "162382ddcf6fe6a94c448fe12b81d2f9cf75ac119600748e704797d4f6185727",
+      "size": 639121,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/sticker-packs/loh/5.png"
+    },
+    "loh/6.png": {
+      "hash": "876e5711f892d39831a6607eb96b35b1f599be142c26ab9517d13962eb1be9d4",
+      "size": 895250,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/sticker-packs/loh/6.png"
+    },
+    "loh/7.png": {
+      "hash": "959294c3ab373ea2b7de8e9f90ca516d10f93136b50cd59e1d3f47807fcc3f32",
+      "size": 261878,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/sticker-packs/loh/7.png"
+    },
+    "loh/8.png": {
+      "hash": "9911ffec73ffc91aefe5bdfce1deffb548b0491533042aeb912ea2a3f8e9bc67",
+      "size": 153601,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/sticker-packs/loh/8.png"
+    }
+  }
+}
