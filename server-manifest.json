@@ -1,13 +1,13 @@
 {
-  "version": "2026-04-04T14:17:15.560Z",
-  "generatedAt": "2026-04-04T14:17:15.560Z",
+  "version": "2026-04-04T22:33:26.603Z",
+  "generatedAt": "2026-04-04T22:33:26.603Z",
   "totalFiles": 1,
-  "totalSize": 2041542,
+  "totalSize": 2407885,
   "files": {
-    "fabric-api-0.87.0+1.20.1.jar": {
-      "hash": "e99f7e5c225aea9fba4c1847ec54e1d5707ffa0cb8e97faa333f4ec3faf64855",
-      "size": 2041542,
-      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/server-mods/fabric-api-0.87.0%2B1.20.1.jar"
+    "fabric-api-0.145.3+26.1.1.jar": {
+      "hash": "a0e285be14ca156b4898f09342b291adeaf3492ac2dfa8ee8702cb33b1eaba34",
+      "size": 2407885,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/server-mods/fabric-api-0.145.3%2B26.1.1.jar"
     }
   }
 }
