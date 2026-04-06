@@ -1,13 +1,128 @@
 {
-  "version": "2026-04-04T22:33:26.531Z",
-  "generatedAt": "2026-04-04T22:33:26.532Z",
-  "totalFiles": 1,
-  "totalSize": 30234606,
+  "version": "2026-04-06T19:30:34.055Z",
+  "generatedAt": "2026-04-06T19:30:34.056Z",
+  "totalFiles": 24,
+  "totalSize": 60568235,
   "files": {
+    "bbe-1.3.1.jar": {
+      "hash": "a0d5c26c8fced117b0f4edabaf7d7a7402370abd3c4601f18332f8605f0f8674",
+      "size": 169845,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/bbe-1.3.1.jar"
+    },
+    "c2me-fabric-mc26.1.1-0.3.7+alpha.0.63.jar": {
+      "hash": "03d85ddd9b7e718e45e283998cc9a6ff8ce58a6a1fd0029327e4070583b41a9c",
+      "size": 4728914,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/c2me-fabric-mc26.1.1-0.3.7%2Balpha.0.63.jar"
+    },
+    "cloth-config-26.1.154.jar": {
+      "hash": "fb7a5d869ce10eaac2c2fe9ab84b4fc011a1fbfa575a93be9845a386a7f0c7d3",
+      "size": 1135373,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/cloth-config-26.1.154.jar"
+    },
+    "fabric-api-0.145.3+26.1.1.jar": {
+      "hash": "a0e285be14ca156b4898f09342b291adeaf3492ac2dfa8ee8702cb33b1eaba34",
+      "size": 2407885,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/fabric-api-0.145.3%2B26.1.1.jar"
+    },
+    "fabric-language-kotlin-1.13.10+kotlin.2.3.20.jar": {
+      "hash": "f288f0273fa9d592b07869fa2bbd7bdca274998a38b87eb8485c109420921e2a",
+      "size": 7796348,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/fabric-language-kotlin-1.13.10%2Bkotlin.2.3.20.jar"
+    },
+    "ferritecore-9.0.0-fabric.jar": {
+      "hash": "213966c72ed967acc7392beb28a866fba301ff56b9976c2e7801c2db7de6bf22",
+      "size": 72677,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/ferritecore-9.0.0-fabric.jar"
+    },
+    "Gnetum-4.3.0+26.1.1-fabric.jar": {
+      "hash": "87f8af19b6c7f65d6e8cfaa1590e3066847723fce8949c072d8da6a18b7ac873",
+      "size": 78966,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/Gnetum-4.3.0%2B26.1.1-fabric.jar"
+    },
+    "ImmediatelyFast-Fabric-1.15.1+26.1.1.jar": {
+      "hash": "2b4c47f987dd805009077c1e576c2f9ee6ac7a0a8dcf54963f4da206815c0e1a",
+      "size": 304949,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/ImmediatelyFast-Fabric-1.15.1%2B26.1.1.jar"
+    },
+    "iris-fabric-1.10.9+mc26.1.1.jar": {
+      "hash": "aea0eefb174d19ad97a812b6de2e304f0d3abc50357b316908cf1035f1514b07",
+      "size": 2803860,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/iris-fabric-1.10.9%2Bmc26.1.1.jar"
+    },
+    "Ixeris-4.1.8+26.1.1-fabric.jar": {
+      "hash": "48af8060c225a8caf65e12d22576e268db67fb0da3d18a2b121a4e463fa338cc",
+      "size": 690709,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/Ixeris-4.1.8%2B26.1.1-fabric.jar"
+    },
+    "lithium-fabric-0.23.0+mc26.1.1.jar": {
+      "hash": "c5dbef1a1f53352d227da6317ac8188a2658fb8b81c9165b3a845e81098cbaf7",
+      "size": 880954,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/lithium-fabric-0.23.0%2Bmc26.1.1.jar"
+    },
+    "modernfix-5.26.2-build.1.jar": {
+      "hash": "3e10dd8d67023bdef85bf909997d003038f3eeffc04d881ae5158746532d01c7",
+      "size": 620901,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/modernfix-5.26.2-build.1.jar"
+    },
+    "modmenu-18.0.0-alpha.8.jar": {
+      "hash": "bb482d08e5409cdc721dcb25a3ecbd97f8c21ac15bf94fd8f2ca225229616430",
+      "size": 847389,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/modmenu-18.0.0-alpha.8.jar"
+    },
+    "moreculling-fabric-26.1-1.7.0-beta.3.jar": {
+      "hash": "4fb2d7e81b0f882ba01633f799345401bbb98485f2abaf4afe74cd3f2752f013",
+      "size": 340681,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/moreculling-fabric-26.1-1.7.0-beta.3.jar"
+    },
+    "NoChatReports-FABRIC-26.1-v2.19.0.jar": {
+      "hash": "b3249eeb1c63dd50c017a7b5e039ee84c9f685b7d0ddae7b3eb46a8735a537b4",
+      "size": 242500,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/NoChatReports-FABRIC-26.1-v2.19.0.jar"
+    },
+    "placeholder-api-3.0.0-beta.2+26.1.jar": {
+      "hash": "af4d1bf1d42c5fe8b923a5e289ad1ee8dcbc2021e7c12b309c9190986babc646",
+      "size": 247011,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/placeholder-api-3.0.0-beta.2%2B26.1.jar"
+    },
+    "reeses-sodium-options-fabric-2.0.5+mc26.1.1.jar": {
+      "hash": "432f60df294ff2bf6b0debeb9750115c7d27ecb548d917e6ca7e31fd40cc83b9",
+      "size": 103481,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/reeses-sodium-options-fabric-2.0.5%2Bmc26.1.1.jar"
+    },
+    "Resourcify (26.1-fabric)-1.8.2.jar": {
+      "hash": "17132edb437975d35e3d97b580e66556a95fb8eeb7de322f68f383c4296b90d9",
+      "size": 2520150,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/Resourcify%20(26.1-fabric)-1.8.2.jar"
+    },
+    "sodium-extra-fabric-0.8.6+mc26.1.1.jar": {
+      "hash": "bc9ae90cc898dbc77f99b3aea91bd7ebbf0c541c6e5afac1c51a0f77cbdd55df",
+      "size": 401602,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/sodium-extra-fabric-0.8.6%2Bmc26.1.1.jar"
+    },
+    "sodium-fabric-0.8.9+mc26.1.1.jar": {
+      "hash": "25ad95ba787bd7ff2a0deaf20a8f4642b91e23489d0e10933693d9963a6022f2",
+      "size": 1810286,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/sodium-fabric-0.8.9%2Bmc26.1.1.jar"
+    },
     "stickerchat-1.0.0.jar": {
       "hash": "63d71f74ad527faf52a5573d8583d3cef40a0b639f6ab36dab5ea9461fa45ca4",
       "size": 30234606,
       "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/stickerchat-1.0.0.jar"
+    },
+    "yet_another_config_lib_v3-3.9.2+26.1-fabric.jar": {
+      "hash": "12e6d48f6b7ab69380bb882464c45974c81151a82034081f6f5f938cf89b3e30",
+      "size": 1116679,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/yet_another_config_lib_v3-3.9.2%2B26.1-fabric.jar"
+    },
+    "zfastnoise-1.0.28+26.1.1.jar": {
+      "hash": "604f027f7813ff1d57041a3afc0c77cb5790e0adce3f834edd67df04e8003a9e",
+      "size": 450406,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/zfastnoise-1.0.28%2B26.1.1.jar"
+    },
+    "zoomify-2.16.0+26.1.jar": {
+      "hash": "25660b2d5a0a64688744984afa53cace840052369abcf2ccd842d8e3f7daee23",
+      "size": 562063,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/zoomify-2.16.0%2B26.1.jar"
     }
   }
 }
