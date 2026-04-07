@@ -1,13 +1,18 @@
 {
-  "version": "2026-04-07T10:50:07.846Z",
-  "generatedAt": "2026-04-07T10:50:07.846Z",
-  "totalFiles": 1,
-  "totalSize": 2407885,
+  "version": "2026-04-07T19:57:12.737Z",
+  "generatedAt": "2026-04-07T19:57:12.737Z",
+  "totalFiles": 2,
+  "totalSize": 3111920,
   "files": {
     "fabric-api-0.145.3+26.1.1.jar": {
       "hash": "a0e285be14ca156b4898f09342b291adeaf3492ac2dfa8ee8702cb33b1eaba34",
       "size": 2407885,
       "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/server-mods/fabric-api-0.145.3%2B26.1.1.jar"
+    },
+    "geckolib-fabric-26.1-5.5.jar": {
+      "hash": "e5afee9336bf1cf63f9c4ef1315524a7283dc1c7bc3d1e465a4f22f76f5d21de",
+      "size": 704035,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/server-mods/geckolib-fabric-26.1-5.5.jar"
     }
   }
 }
