@@ -1,8 +1,8 @@
 {
-  "version": "2026-04-07T21:01:16.014Z",
-  "generatedAt": "2026-04-07T21:01:16.014Z",
+  "version": "2026-04-07T21:25:56.205Z",
+  "generatedAt": "2026-04-07T21:25:56.206Z",
   "totalFiles": 3,
-  "totalSize": 3118827,
+  "totalSize": 3118923,
   "files": {
     "fabric-api-0.145.3+26.1.1.jar": {
       "hash": "a0e285be14ca156b4898f09342b291adeaf3492ac2dfa8ee8702cb33b1eaba34",
@@ -15,8 +15,8 @@
       "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/server-mods/geckolib-fabric-26.1-5.5.jar"
     },
     "zombieflip-1.0.0.jar": {
-      "hash": "e253d3d096d0e1348123e1b50d185b9b2e7dab17bb46f1a4c967e3fc53419bc0",
-      "size": 6907,
+      "hash": "f4a91443e421a9ab0ad9d6f92fae38b01ca00b6728a5930bda71c53209e9f680",
+      "size": 7003,
       "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/server-mods/zombieflip-1.0.0.jar"
     }
   }
