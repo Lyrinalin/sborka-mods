@@ -1,8 +1,8 @@
 {
-  "version": "2026-04-07T21:25:56.032Z",
-  "generatedAt": "2026-04-07T21:25:56.033Z",
+  "version": "2026-04-11T15:20:04.194Z",
+  "generatedAt": "2026-04-11T15:20:04.195Z",
   "totalFiles": 26,
-  "totalSize": 77948332,
+  "totalSize": 77948427,
   "files": {
     "bbe-1.3.1.jar": {
       "hash": "a0d5c26c8fced117b0f4edabaf7d7a7402370abd3c4601f18332f8605f0f8674",
@@ -115,8 +115,8 @@
       "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/sodium-fabric-0.8.9%2Bmc26.1.1.jar"
     },
     "stickerchat-1.0.0.jar": {
-      "hash": "63d71f74ad527faf52a5573d8583d3cef40a0b639f6ab36dab5ea9461fa45ca4",
-      "size": 30234606,
+      "hash": "e17520cdf6fdd4ca4bea375993c1adcdd4c81206af5578ff34adb6bf257eca82",
+      "size": 30234701,
       "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/stickerchat-1.0.0.jar"
     },
     "yet_another_config_lib_v3-3.9.2+26.1-fabric.jar": {
