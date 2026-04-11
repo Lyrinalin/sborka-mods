@@ -16,6 +16,11 @@ const SERVER_MODS_DIR = path.join(__dirname, 'server-mods');
 const SERVER_MODS_BASE_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${GITHUB_BRANCH}/server-mods`;
 const SERVER_MODS_MANIFEST = path.join(__dirname, 'server-manifest.json');
 
+// Ресурспаки (скачиваются автоматически в папку resourcepacks)
+const RESOURCEPACKS_DIR = path.join(__dirname, 'resourcepacks');
+const RESOURCEPACKS_BASE_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${GITHUB_BRANCH}/resourcepacks`;
+const RESOURCEPACKS_MANIFEST = path.join(__dirname, 'resource-manifest.json');
+
 // Стикер-паки (синхронизируются в config/stickerchat/packs/)
 const STICKER_PACKS_DIR = path.join(__dirname, 'sticker-packs');
 const STICKER_PACKS_BASE_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/${GITHUB_BRANCH}/sticker-packs`;
@@ -166,8 +171,11 @@ async function main() {
 
     // 2. Серверные моды (скрытые, обязательные)
     await buildManifest(SERVER_MODS_DIR, SERVER_MODS_BASE_URL, SERVER_MODS_MANIFEST, 'server-mods/ (серверные)');
+    
+    // 3. Ресурспаки
+    await buildManifest(RESOURCEPACKS_DIR, RESOURCEPACKS_BASE_URL, RESOURCEPACKS_MANIFEST, 'resourcepacks/ (серверные/общие)');
 
-    // 3. Стикер-паки
+    // 4. Стикер-паки
     await buildStickerManifest();
 
     console.log(`\n🚀 Теперь сделай:`);
