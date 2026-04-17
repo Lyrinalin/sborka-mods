@@ -1,8 +1,8 @@
 {
-  "version": "2026-04-11T15:38:59.710Z",
-  "generatedAt": "2026-04-11T15:38:59.711Z",
-  "totalFiles": 26,
-  "totalSize": 77948427,
+  "version": "2026-04-17T20:38:16.914Z",
+  "generatedAt": "2026-04-17T20:38:16.915Z",
+  "totalFiles": 27,
+  "totalSize": 79175763,
   "files": {
     "bbe-1.3.1.jar": {
       "hash": "a0d5c26c8fced117b0f4edabaf7d7a7402370abd3c4601f18332f8605f0f8674",
@@ -28,6 +28,11 @@
       "hash": "f288f0273fa9d592b07869fa2bbd7bdca274998a38b87eb8485c109420921e2a",
       "size": 7796348,
       "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/fabric-language-kotlin-1.13.10%2Bkotlin.2.3.20.jar"
+    },
+    "Female-Gender-Mod-fabric-5.0.0-Beta.3+26.1.jar": {
+      "hash": "dd4388ff8dc64cb45635f16eadc30701634c5220d1238134b51a0a340cd37c3f",
+      "size": 1227336,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/Female-Gender-Mod-fabric-5.0.0-Beta.3%2B26.1.jar"
     },
     "ferritecore-9.0.0-fabric.jar": {
       "hash": "213966c72ed967acc7392beb28a866fba301ff56b9976c2e7801c2db7de6bf22",
