@@ -1,8 +1,8 @@
 {
-  "version": "2026-04-11T15:38:59.881Z",
-  "generatedAt": "2026-04-11T15:38:59.881Z",
-  "totalFiles": 3,
-  "totalSize": 3118923,
+  "version": "2026-04-19T16:10:51.977Z",
+  "generatedAt": "2026-04-19T16:10:51.977Z",
+  "totalFiles": 4,
+  "totalSize": 3126711,
   "files": {
     "fabric-api-0.145.3+26.1.1.jar": {
       "hash": "a0e285be14ca156b4898f09342b291adeaf3492ac2dfa8ee8702cb33b1eaba34",
@@ -13,6 +13,11 @@
       "hash": "e5afee9336bf1cf63f9c4ef1315524a7283dc1c7bc3d1e465a4f22f76f5d21de",
       "size": 704035,
       "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/server-mods/geckolib-fabric-26.1-5.5.jar"
+    },
+    "storycraft-auth-1.0.0.jar": {
+      "hash": "ca397cb576ff7071ecdd43eae4b77eb3d014215414afcc5d8a963dbf4e7f5eee",
+      "size": 7788,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/server-mods/storycraft-auth-1.0.0.jar"
     },
     "zombieflip-1.0.0.jar": {
       "hash": "f4a91443e421a9ab0ad9d6f92fae38b01ca00b6728a5930bda71c53209e9f680",
