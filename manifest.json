@@ -1,8 +1,8 @@
 {
-  "version": "2026-04-20T20:05:06.823Z",
-  "generatedAt": "2026-04-20T20:05:06.825Z",
-  "totalFiles": 46,
-  "totalSize": 92885710,
+  "version": "2026-04-20T20:15:26.584Z",
+  "generatedAt": "2026-04-20T20:15:26.585Z",
+  "totalFiles": 51,
+  "totalSize": 97756096,
   "files": {
     "baguettelib-26.1-Fabric-2.0.2.jar": {
       "hash": "d8594b78e97f37b734d34a36727a87c2bbffc2ea69931aecc081a561d98109a3",
@@ -34,6 +34,11 @@
       "size": 90861,
       "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/chat_heads-1.2.2-fabric-26.1.jar"
     },
+    "cicada-lib-0.15.1+26.1.jar": {
+      "hash": "be7d441e2c71e5a79477494d8962e89c35714cb4a13feef910243171c12b2a3c",
+      "size": 360406,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/cicada-lib-0.15.1%2B26.1.jar"
+    },
     "cloth-config-26.1.154.jar": {
       "hash": "fb7a5d869ce10eaac2c2fe9ab84b4fc011a1fbfa575a93be9845a386a7f0c7d3",
       "size": 1135373,
@@ -48,6 +53,11 @@
       "hash": "916c47904d114826586440ff8486ee3134a3b11b2579f22c1f8422e54d5b0389",
       "size": 1402024,
       "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/CreativeCore_FABRIC_v2.14.13_mc26.1.jar"
+    },
+    "ears-fabric-26.1-1.4.7.jar": {
+      "hash": "7551b8f52a2fb479fba8e158ca92ccf4daee5987903c23f693a2cc7d4b08e2e9",
+      "size": 172647,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/ears-fabric-26.1-1.4.7.jar"
     },
     "emotecraft-for-MC26.1-3.3.0-a.build.148.jar": {
       "hash": "d79f3cdba14dc7ee023fef0711a08f2dfa27c3110cef5fb78eea760d03aeec38",
@@ -119,10 +129,25 @@
       "size": 690709,
       "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/Ixeris-4.1.8%2B26.1.1-fabric.jar"
     },
+    "libIPN-fabric-26.1-6.7.1.jar": {
+      "hash": "d89c55aaf07aa7d35cedb4808ee02ed114a180cf2963539a8346ddbd4197e6a4",
+      "size": 660046,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/libIPN-fabric-26.1-6.7.1.jar"
+    },
+    "litematica-fabric-26.1.1-0.27.1.jar": {
+      "hash": "c2ee388be87176ff76bef45f2204701d93b829bb280e9204b61d9997dae85a66",
+      "size": 1803338,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/litematica-fabric-26.1.1-0.27.1.jar"
+    },
     "lithium-fabric-0.23.0+mc26.1.1.jar": {
       "hash": "c5dbef1a1f53352d227da6317ac8188a2658fb8b81c9165b3a845e81098cbaf7",
       "size": 880954,
       "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/lithium-fabric-0.23.0%2Bmc26.1.1.jar"
+    },
+    "malilib-fabric-26.1.1-0.28.2.jar": {
+      "hash": "a0e65604cb228531ed11c146aa5d9c31725321310cbcd66a775170e11dd41635",
+      "size": 1873949,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/malilib-fabric-26.1.1-0.28.2.jar"
     },
     "modernfix-5.26.2-build.1.jar": {
       "hash": "3e10dd8d67023bdef85bf909997d003038f3eeffc04d881ae5158746532d01c7",
