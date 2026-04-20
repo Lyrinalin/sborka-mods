@@ -1,8 +1,8 @@
 {
-  "version": "2026-04-20T20:15:26.584Z",
-  "generatedAt": "2026-04-20T20:15:26.585Z",
-  "totalFiles": 51,
-  "totalSize": 97756096,
+  "version": "2026-04-20T20:53:44.772Z",
+  "generatedAt": "2026-04-20T20:53:44.773Z",
+  "totalFiles": 50,
+  "totalSize": 97478398,
   "files": {
     "baguettelib-26.1-Fabric-2.0.2.jar": {
       "hash": "d8594b78e97f37b734d34a36727a87c2bbffc2ea69931aecc081a561d98109a3",
@@ -218,11 +218,6 @@
       "hash": "17132edb437975d35e3d97b580e66556a95fb8eeb7de322f68f383c4296b90d9",
       "size": 2520150,
       "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/Resourcify%20(26.1-fabric)-1.8.2.jar"
-    },
-    "show-me-your-skin-2.0.2+26.1.2.jar": {
-      "hash": "6b4274544fc088c9e40a5618a9327a39f48eaad67fa95c8f3a4e09013c9c2dc8",
-      "size": 277698,
-      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/show-me-your-skin-2.0.2%2B26.1.2.jar"
     },
     "skinshuffle-2.11.0+26.1-fabric.jar": {
       "hash": "0ffa69558f990329061854da8f474f8b1c257f59e23c542aae66b38dc12db6c8",
