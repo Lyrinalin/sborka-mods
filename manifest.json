@@ -1,23 +1,58 @@
 {
-  "version": "2026-04-19T16:10:51.726Z",
-  "generatedAt": "2026-04-19T16:10:51.727Z",
-  "totalFiles": 27,
-  "totalSize": 79175763,
+  "version": "2026-04-20T19:32:31.515Z",
+  "generatedAt": "2026-04-20T19:32:31.516Z",
+  "totalFiles": 41,
+  "totalSize": 88169667,
   "files": {
     "bbe-1.3.1.jar": {
       "hash": "a0d5c26c8fced117b0f4edabaf7d7a7402370abd3c4601f18332f8605f0f8674",
       "size": 169845,
       "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/bbe-1.3.1.jar"
     },
+    "bobby-5.2.12+mc26.1.jar": {
+      "hash": "6731e647ab8d7cec1ba2bbf3e7598bb396208a3d12dbe19930e20b9916f4c713",
+      "size": 863597,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/bobby-5.2.12%2Bmc26.1.jar"
+    },
     "c2me-fabric-mc26.1.1-0.3.7+alpha.0.63.jar": {
       "hash": "03d85ddd9b7e718e45e283998cc9a6ff8ce58a6a1fd0029327e4070583b41a9c",
       "size": 4728914,
       "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/c2me-fabric-mc26.1.1-0.3.7%2Balpha.0.63.jar"
     },
+    "chatanimation-fabric-26.1-1.1.3.jar": {
+      "hash": "cf640b22fa52da5824e59bd00fcfcc71fdf041000b9b24a8488fc6d210cf1640",
+      "size": 381984,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/chatanimation-fabric-26.1-1.1.3.jar"
+    },
+    "chat_heads-1.2.2-fabric-26.1.jar": {
+      "hash": "c8827bcfec341feaef3ab31998093fe56b1b07648e17e2afa5e085eab3275a72",
+      "size": 90861,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/chat_heads-1.2.2-fabric-26.1.jar"
+    },
     "cloth-config-26.1.154.jar": {
       "hash": "fb7a5d869ce10eaac2c2fe9ab84b4fc011a1fbfa575a93be9845a386a7f0c7d3",
       "size": 1135373,
       "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/cloth-config-26.1.154.jar"
+    },
+    "continuity-3.0.1-beta.2+26.1.jar": {
+      "hash": "33e8acb7f264f691f2e6cf7c0d7b9152b54cf0353f37fc8a00d7312f26b36e3e",
+      "size": 1040001,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/continuity-3.0.1-beta.2%2B26.1.jar"
+    },
+    "emotecraft-for-MC26.1-3.3.0-a.build.148.jar": {
+      "hash": "d79f3cdba14dc7ee023fef0711a08f2dfa27c3110cef5fb78eea760d03aeec38",
+      "size": 911282,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/emotecraft-for-MC26.1-3.3.0-a.build.148.jar"
+    },
+    "entity_model_features_26.1-fabric-3.1.1.jar": {
+      "hash": "8ff762ae1a1ca18d1b933d073214d7b198cd9cc0aa4702a3d769de2bbdacb32d",
+      "size": 525342,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/entity_model_features_26.1-fabric-3.1.1.jar"
+    },
+    "entity_texture_features_26.1-fabric-7.1.jar": {
+      "hash": "7e9cf735b26d2d5ea8d1cc247dd60351be8bd401b30556b84054df85d334f9c4",
+      "size": 740706,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/entity_texture_features_26.1-fabric-7.1.jar"
     },
     "fabric-api-0.145.3+26.1.1.jar": {
       "hash": "a0e285be14ca156b4898f09342b291adeaf3492ac2dfa8ee8702cb33b1eaba34",
@@ -28,6 +63,11 @@
       "hash": "f288f0273fa9d592b07869fa2bbd7bdca274998a38b87eb8485c109420921e2a",
       "size": 7796348,
       "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/fabric-language-kotlin-1.13.10%2Bkotlin.2.3.20.jar"
+    },
+    "fallingleaves-2.0.5+26.1.jar": {
+      "hash": "ef0b39a6a4a01adcbece1392891f704c250530184281012c5b51854c86bf4ebb",
+      "size": 182233,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/fallingleaves-2.0.5%2B26.1.jar"
     },
     "Female-Gender-Mod-fabric-5.0.0-Beta.3+26.1.jar": {
       "hash": "dd4388ff8dc64cb45635f16eadc30701634c5220d1238134b51a0a340cd37c3f",
@@ -53,6 +93,11 @@
       "hash": "aea0eefb174d19ad97a812b6de2e304f0d3abc50357b316908cf1035f1514b07",
       "size": 2803860,
       "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/iris-fabric-1.10.9%2Bmc26.1.1.jar"
+    },
+    "ItemPhysicLite_FABRIC_v1.6.11_mc26.1.jar": {
+      "hash": "30d05d6459f1587bbc4c938dc875a2d7a5854772ff7e19f813b6b0bec8805dfa",
+      "size": 27005,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/ItemPhysicLite_FABRIC_v1.6.11_mc26.1.jar"
     },
     "Ixeris-4.1.8+26.1.1-fabric.jar": {
       "hash": "48af8060c225a8caf65e12d22576e268db67fb0da3d18a2b121a4e463fa338cc",
@@ -84,6 +129,26 @@
       "size": 242500,
       "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/NoChatReports-FABRIC-26.1-v2.19.0.jar"
     },
+    "notenoughanimations-fabric-1.12.2-mc26.1.jar": {
+      "hash": "37b5ec926a1df9a8b95ec1dc7579d93fe437c9468660348119ce7a2126d3597a",
+      "size": 1917761,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/notenoughanimations-fabric-1.12.2-mc26.1.jar"
+    },
+    "particlerain-4.0.0-beta.9+26.1-fabric.jar": {
+      "hash": "4a2e01b69b9ae6b7f2ada96efcdefc5edb72f09340dd895631e2192f05aa877e",
+      "size": 605319,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/particlerain-4.0.0-beta.9%2B26.1-fabric.jar"
+    },
+    "particular-26.1-Fabric-1.4.1.jar": {
+      "hash": "7496647792307e9407abf778178e351d4663e37d9b2531a3233a5e746456bb69",
+      "size": 261101,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/particular-26.1-Fabric-1.4.1.jar"
+    },
+    "PatPat-1.2.6+26.1+fabric.jar": {
+      "hash": "19d9709cc330d5bb9f330dd6d6850fdbc1a652fc3478afa25580fb564d85f0fc",
+      "size": 1169014,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/PatPat-1.2.6%2B26.1%2Bfabric.jar"
+    },
     "placeholder-api-3.0.0-beta.2+26.1.jar": {
       "hash": "af4d1bf1d42c5fe8b923a5e289ad1ee8dcbc2021e7c12b309c9190986babc646",
       "size": 247011,
@@ -103,6 +168,11 @@
       "hash": "17132edb437975d35e3d97b580e66556a95fb8eeb7de322f68f383c4296b90d9",
       "size": 2520150,
       "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/Resourcify%20(26.1-fabric)-1.8.2.jar"
+    },
+    "show-me-your-skin-2.0.2+26.1.2.jar": {
+      "hash": "6b4274544fc088c9e40a5618a9327a39f48eaad67fa95c8f3a4e09013c9c2dc8",
+      "size": 277698,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/show-me-your-skin-2.0.2%2B26.1.2.jar"
     },
     "skinshuffle-2.11.0+26.1-fabric.jar": {
       "hash": "0ffa69558f990329061854da8f474f8b1c257f59e23c542aae66b38dc12db6c8",
