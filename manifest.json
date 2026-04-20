@@ -1,8 +1,8 @@
 {
-  "version": "2026-04-20T19:48:42.125Z",
-  "generatedAt": "2026-04-20T19:48:42.126Z",
-  "totalFiles": 45,
-  "totalSize": 90666941,
+  "version": "2026-04-20T20:05:06.823Z",
+  "generatedAt": "2026-04-20T20:05:06.825Z",
+  "totalFiles": 46,
+  "totalSize": 92885710,
   "files": {
     "baguettelib-26.1-Fabric-2.0.2.jar": {
       "hash": "d8594b78e97f37b734d34a36727a87c2bbffc2ea69931aecc081a561d98109a3",
@@ -148,6 +148,11 @@
       "hash": "37b5ec926a1df9a8b95ec1dc7579d93fe437c9468660348119ce7a2126d3597a",
       "size": 1917761,
       "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/notenoughanimations-fabric-1.12.2-mc26.1.jar"
+    },
+    "owo-lib-0.13.0+26.1.jar": {
+      "hash": "6646ecfa289b902a1add450c77b32e33d53e22f956c0d4e83b1aa60b90cb3d99",
+      "size": 2218769,
+      "url": "https://raw.githubusercontent.com/Lyrinalin/sborka-mods/main/mods/owo-lib-0.13.0%2B26.1.jar"
     },
     "particlerain-4.0.0-beta.9+26.1-fabric.jar": {
       "hash": "4a2e01b69b9ae6b7f2ada96efcdefc5edb72f09340dd895631e2192f05aa877e",
